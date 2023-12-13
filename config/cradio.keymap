@@ -45,6 +45,12 @@
             key-positions = <6 7 8>;
             bindings = <&kp ESC>;
         };
+        combo_number_layer_dot {
+            timeout-ms = <50>;
+            key-positions = <16 17 18>;
+            bindings = <&kp KP_DOT>;
+            layers=<1>;
+        }; 
     };
 
     keymap { // 0
