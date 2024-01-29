@@ -82,7 +82,7 @@
             HRML(A,        S,         D,         F)     &trans         &kp APOS   &kp N4     &kp N5     &kp N6     &kp EQUAL
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
         //│          │          │          │          │          │   │     ~    │     !    │     @    │     #    │     |    │
-            &trans     &trans     &trans     &trans     &trans         &kp GRAVE  &kp N1     &kp N2     &kp N3     &kp BSLH
+            &kp LEFT   &kp DOWN   &kp UP     &kp RIGHT  &trans         &kp GRAVE  &kp N1     &kp N2     &kp N3     &kp BSLH
         //╰──────────┴──────────┴──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┴──────────┴──────────╯
         //                                 |          |          |   |    _     |     )    |
                                              &trans     &trans        &kp MINUS   &kp N0
@@ -94,13 +94,13 @@
             bindings = <
         //╭──────────┬──────────┬──────────┬──────────┬──────────╮   ╭──────────┬──────────┬──────────┬──────────┬──────────╮
         //│          │          │          │          │          │   │          │          │          │          │          │
-            &trans     &trans     &trans     &trans     &trans         &kp CAPS   &trans     &trans     &trans     &trans
+            &kp BSPC   &kp TAB    &kp ENTER  &kp DEL    &trans         &kp CAPS   &trans     &trans     &trans     &trans
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
         //│          │          │          │          │          │   │          │          │          │          │          │
             HRML(A,        S,         D,         F)     &trans         &kp LEFT   &kp DOWN   &kp UP     &kp RIGHT  &trans
         //├──────────┼──────────┼──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┼──────────┼──────────┤
         //│          │          │          │          │          │   │          │          │          │          │          │
-            &trans     &trans     &trans     &trans     &trans         &kp INS    &kp HOME   &kp PG_UP  &kp PG_DN  &kp END
+            &kp LEFT   &kp DOWN   &kp UP     &kp RIGHT  &trans         &kp INS    &kp HOME   &kp PG_UP  &kp PG_DN  &kp END
         //╰──────────┴──────────┴──────────┼──────────┼──────────┤   ├──────────┼──────────┼──────────┴──────────┴──────────╯
                                              &trans     &trans         &trans     &kp DEL
         //                                 ╰──────────┴──────────╯   ╰──────────┴──────────╯
